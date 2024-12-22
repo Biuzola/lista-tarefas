@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center; 
+    gap: 15px; 
+    justify-content: center;
+    text-transform: uppercase;
+    border-bottom: 10px solid #713296;
+    margin-top: 20px;
+    color: #713296;
+    
+}
+
+button {
+    background-color: #1e7411;
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F0F0AD;
+    cursor: pointer;
+}
+
+#btn-cancelar{
+    background-color: rgb(136, 2, 2);
+}
+
+#btn-apagar-lista{
+    background-color: rgb(136, 2, 2);
+}
+
+input, 
+button {
+    padding: 8px;
+}
+
+input {
+    background-color: #F0F0AD;
+    color: #8777ca;
+}
+
+body {
+    background-color: rgb(204, 241, 156);
+}
+
+form {
+    padding: 24px;
+    display: none;
+    text-align: center;
+}
+
+form input {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+ul {
+    padding: 24px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+}
+
+ul li {
+    display: flex;
+    padding: 2px;
+    color: #1b1533;
+    text-align: left;
+    list-style: none;
+    background-color: #e4d880;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
